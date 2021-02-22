@@ -1,17 +1,24 @@
-#header {
-    text-align: center;
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-.headerLeft {
-    text-align: left;
+li {
+    display: inline;
+    padding: 8px;
 }
-body {
-    width: 100%;
+
+.linkLeft {
+    float: left;
+}
+
+.linkRight {
+    float: right;
 }
 
 #logo {
-    font-family: sans-serif;
-    font-size: xx-large;
     text-align: center;
 }
 
@@ -20,36 +27,22 @@ body {
 }
 
 #footer {
-    text-align: center;
     background-color: rgb(235, 235, 235);
     height: 50px;
-    bottom: 0px;
     padding-top: 20px;
     position: absolute;
     bottom: 0;
     width: 100%;
 }
 
-#letter1 {
-color: #4285F4;
+.theLeft {
+    float: left;
 }
 
-#letter2 {
-    color: #EA4335;
+.theMiddle {
+    position: fixed;
 }
 
-#letter3 {
-    color: #FBBC05;
-}
-
-#letter4 {
-    color: #4285F4;
-}
-
-#letter5 {
-    color: #34A853;
-}
-
-#letter6 {
-    color: #EA4335;
+.theRight {
+    float: right;
 }
