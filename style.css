@@ -5,9 +5,8 @@
 .headerLeft {
     text-align: left;
 }
-
-.headerRight {
-    text-align: right;
+body {
+    width: 100%;
 }
 
 #logo {
