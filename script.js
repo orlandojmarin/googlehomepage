@@ -1,7 +1,13 @@
-const logo = document.getElementById("logo")
+const logo = document.getElementById("search button")
 
-logo.addEventListener("click", function() {
-    alert("Google was founded in 1998!");
-});
+function thankYou() {
+    alert("Thank you for using Google!");
+}
+//This method also works
+/*logo.addEventListener("click", function() {
+    alert("Thank you for using Google!");
+});*/
+
+logo.addEventListener("click", thankYou);
 
 
